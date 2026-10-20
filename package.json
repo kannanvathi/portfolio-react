@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kannanvathi.github.io/portfolio-react",
+  "homepage": ".",
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",

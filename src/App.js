@@ -440,6 +440,63 @@ function Projects() {
             <Carousel />
           </div>
         </div>
+
+        <div className="more-projects">
+          <div className="more-projects-header reveal">
+            <span className="section-label">More Work</span>
+            <h3 className="more-projects-title">Other projects I've <span className="em">delivered</span></h3>
+          </div>
+          <div className="projects-grid">
+            <a
+              href="https://www.tejautomation.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card reveal"
+            >
+              <div className="project-card-top">
+                <span className="project-status live">Live</span>
+                <span className="project-link-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </span>
+              </div>
+              <h4>Tej Automation — Corporate Website</h4>
+              <p>
+                Full corporate web presence for a UAE-based turnkey industrial automation
+                and engineering firm. Covers integrated automation, process instrumentation,
+                valve automation, and digital engineering services as a multi-brand
+                technology partner — with service catalog, enquiry flow, and
+                SEO-optimized responsive delivery.
+              </p>
+              <div className="project-card-tech">
+                <span>React</span>
+                <span>Vite</span>
+                <span>Responsive</span>
+                <span>SEO</span>
+              </div>
+            </a>
+
+            <div className="project-card reveal">
+              <div className="project-card-top">
+                <span className="project-status progress">In Progress</span>
+                <span className="project-domain">swastik-intl.com</span>
+              </div>
+              <h4>Swastik International — Energy Trading</h4>
+              <p>
+                Corporate website for an independent energy &amp; commodity trading company
+                based in Sharjah, UAE. Showcasing petroleum, petrochemical, and integrated
+                energy solutions — bunkering, base oils, bitumen, fuel oils, and marine fuel —
+                for clients across international markets. Currently in active development
+                with staged previews on AWS Amplify.
+              </p>
+              <div className="project-card-tech">
+                <span>React</span>
+                <span>Vite</span>
+                <span>AWS Amplify</span>
+                <span>Corporate</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
